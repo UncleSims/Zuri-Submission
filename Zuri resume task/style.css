@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.resume {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(o, 0, 0, 0);
+}
+.resume .left_side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+.profile_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(225, 225, 0225, 0.2);
+}
+.resume .right_side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+.profile_text .profile_img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img {
+  border: 0px solid #ddd;
+  border-radius: 3px;
+  width: 220px;
+  padding: 0;
+}
+.profile_text h2 {
+  color: #fff;
+  font-size: 1.3em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profile_text h2 span {
+  font-size: 0.7em;
+  font-weight: 100;
+}
+.contactInfo {
+  padding-top: 40px;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.contactInfo ul {
+  position: relative;
+}
+.contactInfo ul li {
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li span {
+  color: #fff;
+  font-weight: 400;
+  margin-top: 2px;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.education.title {
+  margin-bottom: 15px;
+}
+.contactInfo.education h5 {
+  color: #03a9f4;
+  font-weight: 500;
+}
+.contactInfo.education h4 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.resume .right_side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+.about {
+  margin-bottom: 50px;
+}
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p {
+  color: #333;
+  line-height: 2;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.year_company {
+  min-width: 150px;
+}
+.year_company h5 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.text h4 {
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
+}
+.skills .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+.skills h4 {
+  text-transform: uppercase;
+  color: #848c99;
+  font-weight: 500;
+}
+.box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #f0f0f0;
+}
+.box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
+.interest h2 {
+  margin-top: 60px;
+}
+.interest ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 27px;
+}
+.interest li {
+  color: #333;
+  font-weight: 500;
+  margin: 10px, 0;
+}
+.interest .fa {
+  color: #03a9f4;
+}
+
+@media (max-width: 1000px) {
+  .resume {
+    margin: 10px;
+    grid-template-columns: repeat(1fr, 1fr);
+  }
+  .interest ul {
+    grid-template-columns: repeat(2fr, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .resume {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 520px) {
+  p {
+    line-height: 1.5;
+  }
+  .interest ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .interest li {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 496px) {
+  .about .box {
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    line-height: 2;
+  }
+}
+
+@media (max-width: 496px) {
+  .contactInfo ul li .icon {
+    display: block;
+  }
+}
