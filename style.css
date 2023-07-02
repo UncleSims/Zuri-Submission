@@ -94,6 +94,9 @@ a {
   margin: 10px 0;
   cursor: pointer;
 }
+.contactInfo .mobile {
+text-decoration: none;
+}
 .contactInfo ul li span {
   color: #fff;
   font-weight: 400;
