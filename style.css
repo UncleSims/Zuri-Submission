@@ -58,7 +58,7 @@ img {
   color: #fff;
   font-size: 1.3em;
   margin-top: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   font-weight: 600;
   line-height: 1.4em;
@@ -66,6 +66,7 @@ img {
 .profile_text h2 span {
   font-size: 0.7em;
   font-weight: 100;
+  color: #03a9f4;
 }
 .grad{
   font-size: 14px;
@@ -73,12 +74,17 @@ img {
 .contactInfo {
   padding-top: 40px;
 }
+a {
+  text-decoration: underline;
+  text-decoration-color: #03a9f4;
+}
 .title {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
+  margin-left: 4px;
 }
 .contactInfo ul {
   position: relative;
@@ -93,6 +99,10 @@ img {
   font-weight: 400;
   margin-top: 2px;
 }
+.contactInfo .text {
+  color: #03a9f4;
+ 
+}
 .contactInfo ul li .icon {
   display: inline-block;
   width: 30px;
@@ -102,14 +112,26 @@ img {
 .education.title {
   margin-bottom: 15px;
 }
+.contactInfo.education li {
+  margin-bottom: 15px;
+}
 .contactInfo.education h5 {
-  color: #03a9f4;
+  color: #fff;
   font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 .contactInfo.education h4 {
   color: #fff;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.contactInfo.education h6 {
+  color: #03a9f4;
+  font-weight: 300;
+
+  margin-bottom: 5px;
 }
 .resume .right_side {
   position: relative;
@@ -119,6 +141,9 @@ img {
 .about {
   margin-bottom: 50px;
 }
+.about li {
+ list-style-type: circle;
+}
 .title2 {
   color: #003147;
   text-transform: uppercase;
@@ -127,6 +152,7 @@ img {
 p {
   color: #333;
   line-height: 2;
+  font-size: 16px;
 }
 .box {
   display: flex;
@@ -134,7 +160,13 @@ p {
   margin: 20px 0;
 }
 .year_company {
+  margin-right: 30px;
   min-width: 150px;
+}
+.year_company h6{
+  color: #848c90;
+  margin-bottom: 4px;
+  font-weight: 400;
 }
 .year_company h5 {
   text-transform: uppercase;
@@ -142,6 +174,7 @@ p {
   font-weight: 400;
   font-size: 13px;
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 .text h4 {
   text-transform: uppercase;
