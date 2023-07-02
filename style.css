@@ -96,6 +96,8 @@ a {
 }
 .contactInfo .mobile {
 text-decoration: none;
+color: #03a9f4;
+cursor: default;
 }
 .contactInfo ul li span {
   color: #fff;
