@@ -99,6 +99,14 @@ text-decoration: none;
 color: #03a9f4;
 cursor: default;
 }
+.contactInfo .mobile a::before {
+  text-decoration: none;
+  color: #03a9f4;
+  }
+  .contactInfo .mobile a::after {
+    text-decoration: none;
+    color: #03a9f4;
+    }
 .contactInfo ul li span {
   color: #fff;
   font-weight: 400;
